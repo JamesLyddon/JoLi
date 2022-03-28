@@ -19,6 +19,8 @@ body {
   padding: 1rem;
   border-radius: 10px;
   width: 100px;
+  opacity: 0;
+  animation: fade-in 1s ease forwards;
 }
 
 .nav {
@@ -29,16 +31,64 @@ body {
   grid-template-columns: repeat(5, 1fr);
   font-size: 0.8rem;
   place-items: center;
+  opacity: 0;
+  animation: fade-in 1s ease forwards;
+  animation-delay: 1s;
 }
 
-.content {
-  padding-top: 1rem;
-  font-size: 0.8rem;
+.hero {
+  margin: 0 auto;
+  display: relative;
+  opacity: 0;
+  animation: fade-in 1s ease forwards;
+  animation-delay: 1.5s;
+}
+
+.hero-title {
+  text-align: center;
+  margin: 2rem;
+}
+
+.hero-img {
+  opacity: 0;
+  filter: brightness(80%);
+  width: 70vw;
+  margin: 0 auto;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transform: skew(-5deg);
+  box-shadow: 10px 10px 1px 1px rgba(255, 68, 51, 0.9);
+  animation: fade-in 1s ease forwards;
+  animation-delay: 2s;
+}
+
+.hero-copy {
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fade-in 1s ease forwards;
+  animation-delay: 3s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* .white-box {
+  background-color: white;
+  border-radius: 10px;
   margin: 0 auto;
   width: 80vw;
-  max-width: 800px;
-  text-align: center;
-}
+  height: 50vh;
+  max-width: 600px;
+} */
 /* 
 BOILER-PLATE
 .App {

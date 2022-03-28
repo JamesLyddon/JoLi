@@ -1,4 +1,5 @@
 import "./App.css";
+import studio from "./img/studio.jpg";
 
 function App() {
   return (
@@ -17,11 +18,16 @@ function App() {
         <div className="contact">Contact</div>
         <div className="client">Client</div>
       </div>
-      <div className="content">
-        <h4>
+      <div className="hero">
+        <h6 class="hero-title">
           Broadcast TV, Cinema, Online Promo and Video on Demand production
-        </h4>
+        </h6>
       </div>
+      <img class="hero-img" src={studio} alt="" />
+      <span class="hero-copy">
+        Motion graphics TV commercials, live action TV commercials, online
+        video, animation, cinema commercial and promotional videos.
+      </span>
     </div>
   );
 }
