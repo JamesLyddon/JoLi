@@ -19,14 +19,14 @@ function App() {
         <div className="client">Client</div>
       </div>
       <div className="hero"></div>
-      <h6 className="hero-title">
+      <span className="hero-title">
         Broadcast TV, Cinema, Online Promo and Video on Demand production
-      </h6>
+      </span>
       <img className="hero-img" src={studio} alt="" />
-      <span className="hero-copy">
+      <h3 className="hero-copy">
         Motion graphics TV commercials, live action TV commercials, online
         video, animation, cinema commercial and promotional videos.
-      </span>
+      </h3>
     </div>
   );
 }
