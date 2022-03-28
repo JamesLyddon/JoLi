@@ -5,14 +5,14 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container {
+/* .container {
   display: grid;
-}
+} */
 
-.logo {
+/* .logo {
   display: grid;
   place-items: center;
-}
+} */
 
 .logo-img {
   border: 3px #fff solid;

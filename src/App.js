@@ -1,16 +1,15 @@
 import "./App.css";
 import studio from "./img/studio.jpg";
+import Logo from "./components/Logo";
+import { Container } from "./components/styles/Container.styled";
+import { LogoContainer } from "./components/styles/LogoContainer.styled";
 
 function App() {
   return (
-    <div className="container">
-      <div className="logo">
-        <img
-          class="logo-img"
-          src="https://static.wixstatic.com/media/b593f2_6cf4902d7618953be81d778a91a0330a.png/v1/fill/w_360,h_222,al_c,usm_0.66_1.00_0.01,enc_auto/b593f2_6cf4902d7618953be81d778a91a0330a.png"
-          alt=""
-        />
-      </div>
+    <Container>
+      <LogoContainer>
+        <Logo />
+      </LogoContainer>
       <div className="nav">
         <div className="promos">Promos</div>
         <div className="headshots">Headshots</div>
@@ -27,7 +26,7 @@ function App() {
         Motion graphics TV commercials, live action TV commercials, online
         video, animation, cinema commercial and promotional videos.
       </h3>
-    </div>
+    </Container>
   );
 }
 
