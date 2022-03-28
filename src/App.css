@@ -21,6 +21,7 @@ body {
   width: 100px;
   opacity: 0;
   animation: fade-in 2s ease forwards;
+  animation-delay: 0.5s;
 }
 
 .nav {
@@ -69,7 +70,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   animation: fade-in 1.5s ease forwards;
-  animation-delay: 4s;
+  animation-delay: 3.5s;
 }
 
 @keyframes fade-in {
@@ -95,14 +96,6 @@ body {
   }
 }
 
-/* .white-box {
-  background-color: white;
-  border-radius: 10px;
-  margin: 0 auto;
-  width: 80vw;
-  height: 50vh;
-  max-width: 600px;
-} */
 /* 
 BOILER-PLATE
 .App {
