@@ -1,3 +1,46 @@
+body {
+  background-color: rgba(255, 68, 51, 0.9);
+  padding-top: 1rem;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: grid;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+}
+
+.logo-img {
+  border: 3px #fff solid;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.nav {
+  padding-top: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-size: 0.8rem;
+  place-items: center;
+}
+
+.content {
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  width: 80vw;
+  max-width: 800px;
+  text-align: center;
+}
+/* 
+BOILER-PLATE
 .App {
   text-align: center;
 }
@@ -35,4 +78,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
