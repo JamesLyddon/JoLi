@@ -20,7 +20,7 @@ body {
   border-radius: 10px;
   width: 100px;
   opacity: 0;
-  animation: fade-in 5s ease forwards;
+  animation: fade-in 2s ease forwards;
 }
 
 .nav {
@@ -40,25 +40,24 @@ body {
   margin: 0 auto;
   display: relative;
   opacity: 0;
-  animation: fade-in 1s ease forwards;
-  animation-delay: 1.5s;
 }
 
 .hero-title {
+  opacity: 0;
   text-align: center;
   margin: 2rem;
+  /* animation: fade-in 1s ease forwards;
+  animation-delay: 1.5s; */
 }
 
 .hero-img {
   opacity: 0;
-  filter: brightness(80%);
   width: 70vw;
   margin: 0 auto;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   transform: skew(-5deg);
-  box-shadow: 10px 10px 1px 1px rgba(255, 68, 51, 0.9);
-  animation: fade-in 1s ease forwards;
+  animation: fade-in-image 2s linear forwards;
   animation-delay: 2s;
 }
 
@@ -69,15 +68,32 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   animation: fade-in 1s ease forwards;
-  animation-delay: 2.5s;
+  animation-delay: 3s;
 }
 
 @keyframes fade-in {
   from {
     opacity: 0;
+    filter: blur(5px);
   }
   to {
     opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes fade-in-image {
+  from {
+    opacity: 0;
+    filter: brightness(100%);
+    filter: blur(5px);
+    box-shadow: none;
+  }
+  to {
+    opacity: 1;
+    box-shadow: 20px 20px 1px 1px rgba(255, 68, 51, 0.9);
+    filter: brightness(80%);
+    filter: blur(0);
   }
 }
 
