@@ -14,7 +14,6 @@ function App() {
         <div className="contact">Contact</div>
         <div className="client">Client</div>
       </div>
-      <div className="hero"></div>
       <span className="hero-title">
         Broadcast TV, Cinema, Online Promo and Video on Demand production
       </span>
@@ -24,8 +23,11 @@ function App() {
         <br /> <br />
         live action TV commercials
         <br /> <br />
-        online video animation <br /> <br />
-        cinema commercial and promotional videos
+        online video animation
+        <br /> <br />
+        cinema commercial
+        <br /> <br />
+        promotional videos
       </h2>
     </Container>
   );

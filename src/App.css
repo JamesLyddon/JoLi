@@ -37,11 +37,6 @@ body {
   animation-delay: 1s;
 }
 
-.hero {
-  margin: 0 auto;
-  display: relative;
-}
-
 .hero-title {
   opacity: 0;
   font-size: 0.8rem;
