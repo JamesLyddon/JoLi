@@ -18,13 +18,12 @@ function App() {
         <div className="contact">Contact</div>
         <div className="client">Client</div>
       </div>
-      <div className="hero">
-        <h6 class="hero-title">
-          Broadcast TV, Cinema, Online Promo and Video on Demand production
-        </h6>
-      </div>
-      <img class="hero-img" src={studio} alt="" />
-      <span class="hero-copy">
+      <div className="hero"></div>
+      <h6 className="hero-title">
+        Broadcast TV, Cinema, Online Promo and Video on Demand production
+      </h6>
+      <img className="hero-img" src={studio} alt="" />
+      <span className="hero-copy">
         Motion graphics TV commercials, live action TV commercials, online
         video, animation, cinema commercial and promotional videos.
       </span>
