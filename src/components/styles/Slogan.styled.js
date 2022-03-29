@@ -10,5 +10,6 @@ export const StyledSlogan = styled.div`
   h1 {
     font-weight: 400;
     font-size: 6rem;
+    color: #333;
   }
 `;
