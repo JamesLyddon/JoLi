@@ -19,6 +19,7 @@ export const StyledNav = styled.div`
     box-shadow: inset 0 0 0 0 #c21807;
     transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     border-radius: 5px 5px 0 0;
+    border-bottom: 1px #c21807 solid;
   }
 
   a:link {
