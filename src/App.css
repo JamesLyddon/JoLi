@@ -7,6 +7,7 @@ body {
 
 a {
   animation: no-shadow 0.5s ease forwards;
+  color: #fff;
 }
 
 a:link {
@@ -64,6 +65,7 @@ a:hover {
 
 .hero-img {
   max-height: 100%;
+  border-radius: 10px;
   object-fit: cover;
   overflow: hidden;
   margin: 0 auto;

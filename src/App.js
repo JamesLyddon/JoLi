@@ -1,5 +1,4 @@
 import "./App.css";
-import studio from "./img/studio.jpg";
 import Logo from "./components/Logo";
 import { Container } from "./components/styles/Container.styled";
 
@@ -28,7 +27,7 @@ function App() {
         Broadcast TV, Cinema, Online Promo and Video on Demand production
       </span>
       <div className="hero">
-        <img className="hero-img" src={studio} alt="" />
+        <img className="hero-img" src="images/studio.jpg" alt="" />
       </div>
       {/* 
       <span className="hero-copy">
