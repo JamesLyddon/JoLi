@@ -3,19 +3,19 @@
 body {
   box-sizing: border-box;
   background-image: linear-gradient(
-    to top,
-    rgba(255, 68, 52, 0.9),
-    rgba(245, 58, 44, 0.9),
-    rgba(234, 48, 37, 0.9),
-    rgba(224, 36, 29, 0.9),
-    rgba(214, 21, 21, 0.9)
+    to right bottom,
+    #000000,
+    #121212,
+    #1d1d1d,
+    #282828,
+    #333333
   );
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-top: 1rem;
-  color: #fff;
+  color: rgb(212, 212, 212);
   font-family: "Raleway", sans-serif;
 }
 

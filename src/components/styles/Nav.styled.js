@@ -1,50 +1,48 @@
 import styled from "styled-components";
 
 export const StyledNav = styled.div`
-  padding-top: 1rem;
-  width: 400px;
+  padding-top: 2rem;
+  width: 800px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   place-items: center;
+  text-align: center;
   opacity: 0;
   animation: fade-in 1.5s ease forwards;
   animation-delay: 1s;
 
   a {
-    animation: no-shadow 0.5s ease forwards;
-    color: #fff;
+    padding: 0 1rem;
+    color: rgb(212, 212, 212);
   }
 
   a:link {
     text-decoration: none;
+    color: rgb(212, 212, 212);
   }
 
   a:visited {
     text-decoration: none;
-    color: #fff;
+    color: rgb(212, 212, 212);
   }
 
   a:hover {
-    animation: shadow-on-hover 0.5s ease forwards;
+    color: rgb(212, 212, 212);
   }
 
-  @keyframes shadow-on-hover {
+  @keyframes hover-on {
     from {
-      text-shadow: none;
     }
     to {
-      text-shadow: 3px 3px 1px #000;
     }
   }
 
-  @keyframes no-shadow {
+  @keyframes hover-off {
     from {
-      text-shadow: 3px 3px 1px #000;
     }
     to {
-      text-shadow: none;
     }
   }
 `;

@@ -7,4 +7,8 @@ export const StyledSlogan = styled.div`
   margin: 2rem;
   animation: fade-in 1.5s ease forwards;
   animation-delay: 1.5s;
+  h1 {
+    font-weight: 400;
+    font-size: 6rem;
+  }
 `;
