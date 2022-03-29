@@ -1,8 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+
 body {
-  background-color: rgba(255, 68, 51, 0.9);
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 68, 52, 0.9),
+    rgba(245, 58, 44, 0.9),
+    rgba(234, 48, 37, 0.9),
+    rgba(224, 36, 29, 0.9),
+    rgba(214, 21, 21, 0.9)
+  );
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-top: 1rem;
   color: #fff;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .logo-img {
@@ -21,15 +35,6 @@ body {
   max-width: 80vw;
   height: 60vh;
   margin: 0 auto;
-}
-
-.hero-title {
-  opacity: 0;
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 2rem;
-  animation: fade-in 1.5s ease forwards;
-  animation-delay: 1.5s;
 }
 
 .hero-img {
@@ -127,3 +132,13 @@ BOILER-PLATE
     transform: rotate(360deg);
   }
 } */
+
+/* red gradient */
+/* background-image: linear-gradient(
+  to top,
+  rgba(255, 68, 52, 0.9),
+  rgba(245, 58, 44, 0.9),
+  rgba(234, 48, 37, 0.9),
+  rgba(224, 36, 29, 0.9),
+  rgba(214, 21, 21, 0.9)
+); */
