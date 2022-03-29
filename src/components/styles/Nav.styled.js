@@ -18,7 +18,7 @@ export const StyledNav = styled.div`
     padding: 0.5rem;
     box-shadow: inset 0 0 0 0 #c21807;
     transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    border-radius: 10px 10px 0 0;
+    border-radius: 5px 5px 0 0;
   }
 
   a:link {
@@ -33,7 +33,6 @@ export const StyledNav = styled.div`
 
   a:hover {
     color: #161616;
-    font-style: italic;
     font-weight: 600;
     box-shadow: inset 0 -150px 0 0 #c21807;
   }
