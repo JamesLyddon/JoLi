@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { StyledCarousel } from "./styles/Carousel.styled";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Slider from "react-slick";
 import media_player from "../assets/media_player.svg";
 import online_media from "../assets/online_media.svg";
@@ -17,6 +19,24 @@ const images = [
 ];
 
 export default function Carousel() {
+  const NextArrow = ({ onClick }) => {
+    return (
+      <div className="arrow next" onClick={onClick}>
+        <FaArrowRight />
+      </div>
+    );
+  };
+
+  const PrevArrow = ({ onClick }) => {
+    return (
+      <div className="arrow prev" onClick={onClick}>
+        <FaArrowLeft />
+      </div>
+    );
+  };
+
+  const [imageIndex, setImageIndex] = useState(0);
+
   const settings = {
     infinite: true,
     lazyLoad: true,
@@ -24,15 +44,20 @@ export default function Carousel() {
     slidesToShow: 3,
     centerMode: true,
     centerPadding: 0,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+    beforeChange: (current, next) => setImageIndex(next),
   };
 
   return (
-    <Slider>
-      {images.map((img, i) => (
-        <div>
-          <img src={img} alt={img} width="200" />
-        </div>
-      ))}
-    </Slider>
+    <StyledCarousel>
+      <Slider {...settings}>
+        {images.map((img, idx) => (
+          <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+            <img src={img} alt={img} />
+          </div>
+        ))}
+      </Slider>
+    </StyledCarousel>
   );
 }

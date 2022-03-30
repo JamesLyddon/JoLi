@@ -17,12 +17,14 @@ function App() {
   };
 
   return (
-    // <Container>
-    //   <Logo />
-    //   <Nav />
-    //   <Slogan />
-    <Carousel />
-    // </Container>
+    <>
+      <Container>
+        <Logo />
+        <Nav />
+        <Slogan />
+        <Carousel />
+      </Container>
+    </>
   );
 }
 
