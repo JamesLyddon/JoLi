@@ -51,7 +51,7 @@ export default function Carousel() {
         {images.map((img, idx) => (
           <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
             <img src={img} alt={img} />
-            <span>{blurbs[idx]}</span>
+            <span className="blurbs">{blurbs[idx]}</span>
           </div>
         ))}
       </Slider>

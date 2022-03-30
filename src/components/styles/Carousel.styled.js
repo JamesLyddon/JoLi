@@ -26,6 +26,10 @@ export const StyledCarousel = styled.div`
     opacity: 1;
   }
 
+  .blurbs {
+    color: rgba(255, 68, 51, 0.9);
+  }
+
   .arrow {
     color: #333;
     position: absolute;
