@@ -24,8 +24,8 @@ function App() {
         <Nav />
         <Slogan />
         <Carousel />
+        <Main />
       </Container>
-      <Main />
     </>
   );
 }

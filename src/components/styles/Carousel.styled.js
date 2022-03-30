@@ -5,14 +5,10 @@ export const StyledCarousel = styled.div`
   animation: fade-in 1.5s ease forwards;
   animation-delay: 5s;
   font-size: 1.5rem;
-  padding: 4rem 6rem;
+  padding: 2rem 6rem;
   overflow-x: hidden;
   text-align: center;
   font-style: italic;
-  ${
-    "" /* max-width: 80vw;
-  margin: 0 auto; */
-  }
 
   .slide img {
     height: 20vh;
