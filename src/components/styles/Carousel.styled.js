@@ -4,9 +4,10 @@ export const StyledCarousel = styled.div`
   opacity: 0;
   animation: fade-in 1.5s ease forwards;
   animation-delay: 5s;
-  width: 60vw;
-  margin: 5rem auto 0rem;
+  width: 50vw;
+  margin: 2rem auto 2rem;
   overflow-x: hidden;
+  text-align: center;
 
   .slide img {
     width: 15rem;
@@ -20,7 +21,7 @@ export const StyledCarousel = styled.div`
   }
 
   .activeSlide {
-    transform: scale(1.2);
+    transform: scale(1);
     opacity: 1;
   }
 

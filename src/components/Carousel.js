@@ -2,21 +2,14 @@ import { useState } from "react";
 import { StyledCarousel } from "./styles/Carousel.styled";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Slider from "react-slick";
-import media_player from "../assets/media_player.svg";
 import online_media from "../assets/online_media.svg";
 import video_files from "../assets/video_files.svg";
 import video_influencer from "../assets/video_influencer.svg";
 import videographer from "../assets/videographer.svg";
-import web_search from "../assets/web_search.svg";
 
-const images = [
-  media_player,
-  online_media,
-  video_files,
-  video_influencer,
-  videographer,
-  web_search,
-];
+const images = [online_media, videographer, video_influencer, video_files];
+
+const blurbs = ["Broadcast TV", "Cinema", "Online Promo", "Video On Demand"];
 
 export default function Carousel() {
   const NextArrow = ({ onClick }) => {
@@ -38,6 +31,7 @@ export default function Carousel() {
   const [imageIndex, setImageIndex] = useState(0);
 
   const settings = {
+    autoPlay: true,
     infinite: true,
     lazyLoad: true,
     speed: 300,
@@ -55,6 +49,7 @@ export default function Carousel() {
         {images.map((img, idx) => (
           <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
             <img src={img} alt={img} />
+            <span>{blurbs[idx]}</span>
           </div>
         ))}
       </Slider>

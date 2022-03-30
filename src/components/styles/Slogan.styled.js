@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledSlogan = styled.div`
   position: absolute;
   z-index: -2;
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
