@@ -4,6 +4,7 @@ import Logo from "./components/Logo";
 import Nav from "./components/Nav";
 import Slogan from "./components/Slogan";
 import Carousel from "./components/Carousel";
+import Main from "./components/Main";
 import { Container } from "./components/styles/Container.styled";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Slogan />
         <Carousel />
       </Container>
+      <Main />
     </>
   );
 }
