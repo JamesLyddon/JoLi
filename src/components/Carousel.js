@@ -2,12 +2,12 @@ import { useState } from "react";
 import { StyledCarousel } from "./styles/Carousel.styled";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Slider from "react-slick";
-import online_media from "../assets/online_media.svg";
-import video_files from "../assets/video_files.svg";
+import broadcast_tv from "../assets/broadcast_tv.svg";
+import video_on_demand from "../assets/video_on_demand.svg";
 import video_influencer from "../assets/video_influencer.svg";
 import videographer from "../assets/videographer.svg";
 
-const images = [online_media, videographer, video_influencer, video_files];
+const images = [broadcast_tv, videographer, video_influencer, video_on_demand];
 
 const blurbs = ["Broadcast TV", "Cinema", "Online Promo", "Video On Demand"];
 

@@ -4,20 +4,21 @@ export const StyledCarousel = styled.div`
   opacity: 0;
   animation: fade-in 1.5s ease forwards;
   animation-delay: 5s;
-  width: 50vw;
-  margin: 2rem auto 2rem;
+  font-size: 1.5rem;
+  padding: 4rem 6rem;
   overflow-x: hidden;
   text-align: center;
+  font-style: italic;
 
   .slide img {
-    width: 15rem;
+    height: 20vh;
     margin: 2rem auto;
   }
 
   .slide {
-    transform: scale(0.2);
+    transform: scale(0.5);
     transition: transform 300ms;
-    opacity: 0.5;
+    opacity: 0.1;
   }
 
   .activeSlide {
