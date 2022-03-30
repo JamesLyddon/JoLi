@@ -31,10 +31,12 @@ export default function Carousel() {
   const [imageIndex, setImageIndex] = useState(0);
 
   const settings = {
-    autoPlay: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    swipeToSlide: true,
     infinite: true,
     lazyLoad: true,
-    speed: 300,
+    speed: 1000,
     slidesToShow: 3,
     centerMode: true,
     centerPadding: 0,

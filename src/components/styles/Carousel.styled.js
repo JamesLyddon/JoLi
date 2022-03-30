@@ -9,6 +9,10 @@ export const StyledCarousel = styled.div`
   overflow-x: hidden;
   text-align: center;
   font-style: italic;
+  ${
+    "" /* max-width: 80vw;
+  margin: 0 auto; */
+  }
 
   .slide img {
     height: 20vh;
@@ -17,7 +21,7 @@ export const StyledCarousel = styled.div`
 
   .slide {
     transform: scale(0.5);
-    transition: transform 300ms;
+    transition: transform 1s ease;
     opacity: 0.1;
   }
 
