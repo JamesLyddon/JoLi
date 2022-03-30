@@ -1,16 +1,15 @@
 import styled from "styled-components";
 
 export const StyledSlogan = styled.div`
-  position: absolute;
+  position: fixed;
+  top: 35%;
+  right: 25%;
+  width: 50%;
+  padding: 0;
+  margin: 0;
   z-index: -2;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  ${"" /* transform: translate(-50%, -50%); */}
   text-align: center;
-  ${
-    "" /* animation: flash 3s ease forwards;
-  animation-delay: 2s; */
-  }
   h1 {
     font-weight: 200;
     font-size: 4rem;

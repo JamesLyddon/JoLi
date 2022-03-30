@@ -32,7 +32,7 @@ export default function Carousel() {
 
   const settings = {
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     swipeToSlide: true,
     infinite: true,
     lazyLoad: true,
