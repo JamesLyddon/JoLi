@@ -1,18 +1,34 @@
 import styled from "styled-components";
 
 export const StyledSlogan = styled.div`
-  opacity: 0;
   position: absolute;
   z-index: -2;
-  font-size: 1.2rem;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  margin: 0 auto;
-  animation: fade-in 1.5s ease forwards;
-  animation-delay: 1.5s;
+  ${
+    "" /* animation: flash 3s ease forwards;
+  animation-delay: 2s; */
+  }
   h1 {
-    font-weight: 400;
-    font-size: 6rem;
-    color: #333;
-    opacity: 0.4;
+    font-weight: 200;
+    font-size: 4rem;
+    color: #c21807;
+  }
+  .passion,
+  .imagination,
+  .creativity {
+    opacity: 0;
+    animation: flash 3s ease forwards;
+  }
+  .passion {
+    animation-delay: 2s;
+  }
+  .imagination {
+    animation-delay: 2.4s;
+  }
+  .creativity {
+    animation-delay: 2.8s;
   }
 `;

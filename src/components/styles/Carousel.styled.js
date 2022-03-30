@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const StyledCarousel = styled.div`
   opacity: 0;
   animation: fade-in 1.5s ease forwards;
-  animation-delay: 1.5s;
+  animation-delay: 5s;
   width: 60vw;
-  margin: 0 auto;
+  margin: 5rem auto 0rem;
   overflow-x: hidden;
 
   .slide img {
