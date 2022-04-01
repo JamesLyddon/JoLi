@@ -1,32 +1,16 @@
 import "./App.css";
 
-import Logo from "./components/Logo";
-import Nav from "./components/Nav";
-import Slogan from "./components/Slogan";
-import Carousel from "./components/Carousel";
-import Main from "./components/Main";
-import { Container } from "./components/styles/Container.styled";
+import Home from "./Pages/Home";
+import Headshots from "./Pages/Headshots";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  const settings = {
-    infinite: true,
-    lazyLoad: true,
-    speed: 300,
-    slidesToShow: 3,
-    centerMode: true,
-    centerPadding: 0,
-  };
-
   return (
-    <>
-      <Container>
-        <Logo />
-        <Nav />
-        <Slogan />
-        <Carousel />
-        <Main />
-      </Container>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

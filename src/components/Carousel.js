@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 import { StyledCarousel } from "./styles/Carousel.styled";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Slider from "react-slick";
@@ -49,7 +50,10 @@ export default function Carousel() {
     <StyledCarousel>
       <Slider {...settings}>
         {images.map((img, idx) => (
-          <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+          <div
+            key={uuidv4}
+            className={idx === imageIndex ? "slide activeSlide" : "slide"}
+          >
             <img src={img} alt={img} />
             <span className="blurbs">{blurbs[idx]}</span>
           </div>
