@@ -4,19 +4,19 @@ export default function Nav() {
   return (
     <StyledNav>
       <div>
-        <a href="https://google.com">Promos</a>
+        <a href="/promos">Promos</a>
       </div>
       <div className="headshots">
-        <a href="https://google.com">Headshots</a>
+        <a href="/headshots">Headshots</a>
       </div>
       <div className="studio">
-        <a href="https://google.com">Studio</a>
+        <a href="/studio">Studio</a>
       </div>
       <div className="contact">
-        <a href="https://google.com">Contact</a>
+        <a href="/contact">Contact</a>
       </div>
       <div className="client">
-        <a href="https://google.com">Client</a>
+        <a href="/client">Client</a>
       </div>
     </StyledNav>
   );
