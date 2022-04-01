@@ -37,18 +37,4 @@ export const StyledNav = styled.div`
     font-weight: 600;
     box-shadow: inset 0 -150px 0 0 #c21807;
   }
-
-  @keyframes hover-on {
-    from {
-    }
-    to {
-    }
-  }
-
-  @keyframes hover-off {
-    from {
-    }
-    to {
-    }
-  }
 `;
