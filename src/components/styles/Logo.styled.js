@@ -13,4 +13,14 @@ export const StyledLogo = styled.div`
     color: #c21807;
     box-shadow: inset 0 100px 0 0 #c21807;
   }
+
+  .logo-img {
+    border: 3px #fff solid;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 100px;
+    opacity: 0;
+    animation: fade-in 2s ease forwards;
+    animation-delay: 0.5s;
+  }
 `;

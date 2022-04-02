@@ -16,35 +16,9 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-top: 3rem;
+  padding-top: 1rem;
   color: rgb(212, 212, 212);
   font-family: "Raleway", sans-serif;
-}
-
-.logo-img {
-  border: 3px #fff solid;
-  padding: 1rem;
-  border-radius: 10px;
-  width: 100px;
-  opacity: 0;
-  animation: fade-in 2s ease forwards;
-  animation-delay: 0.5s;
-}
-
-.hero {
-  border: 3px white solid;
-  border-radius: 10px;
-  max-width: 80vw;
-  height: 60vh;
-  margin: 0 auto;
-}
-
-.hero-img {
-  max-height: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-  overflow: hidden;
-  margin: 0 auto;
 }
 
 @keyframes fade-in {

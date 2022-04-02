@@ -5,6 +5,7 @@ import Slogan from "../components/Slogan";
 import Carousel from "../components/Carousel";
 import Headline from "../components/Headline";
 import Main from "../components/Main";
+import Footer from "../components/Footer";
 import { Container } from "../components/styles/Container.styled";
 
 const headlineText = `Video, Audio and Motion Graphic suite and facilities`;
@@ -28,6 +29,7 @@ export default function Home() {
         <Slogan />
         <Carousel />
         <Main mainText={mainText} />
+        <Footer />
       </Container>
     </>
   );
