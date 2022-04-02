@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledCarousel = styled.div`
   opacity: 0;
   animation: fade-in 1.5s ease forwards;
-  animation-delay: 3.5s;
+  animation-delay: 3.7s;
   font-size: 1.5rem;
   padding: 2rem 6rem;
   overflow-x: hidden;

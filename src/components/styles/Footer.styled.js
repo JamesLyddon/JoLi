@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledFooter = styled.div`
     opacity: 0;
     animation: fade-in 1.5s ease forwards;
-    animation-delay: 3.5s;
+    animation-delay: 3.7s;
 
     position: absolute;
     right: 30%;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledMain = styled.div`
   opacity: 0;
   animation: fade-in 1.5s ease forwards;
-  animation-delay: ${(props) => (props.isHome ? 3.5 : 0)}s;
+  animation-delay: ${(props) => (props.isHome ? 3.7 : 0)}s;
 
   line-height: 1.8;
   letter-spacing: 0.5px;

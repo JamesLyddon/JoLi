@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledNav = styled.div`
   padding-top: 2rem;
   width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   font-size: 1.2rem;
