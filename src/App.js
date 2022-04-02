@@ -1,9 +1,5 @@
 import "./App.css";
-import { Container } from "./components/styles/Container.styled";
 import Layout from "./components/Layout";
-import Logo from "./components/Logo";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
 import Home from "./Pages/Home";
 import Promos from "./Pages/Promos";
 import Headshots from "./Pages/Headshots";
@@ -17,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact element={<Layout />}>
-          <Route path="/home" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="/promos" element={<Promos />} />
           <Route path="/headshots" element={<Headshots />} />
           <Route path="/studio" element={<Studio />} />
