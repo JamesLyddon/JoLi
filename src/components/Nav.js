@@ -1,22 +1,23 @@
 import { StyledNav } from "./styles/Nav.styled";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
     <StyledNav>
       <div>
-        <a href="/promos">Promos</a>
+        <Link to="/promos">Promos</Link>
       </div>
       <div className="headshots">
-        <a href="/headshots">Headshots</a>
+        <Link to="/headshots">Headshots</Link>
       </div>
       <div className="studio">
-        <a href="/studio">Studio</a>
+        <Link to="/studio">Studio</Link>
       </div>
       <div className="contact">
-        <a href="/contact">Contact</a>
+        <Link to="/contact">Contact</Link>
       </div>
       <div className="client">
-        <a href="/client">Client</a>
+        <Link to="/client">Client</Link>
       </div>
     </StyledNav>
   );
