@@ -5,15 +5,15 @@ export const StyledFooter = styled.div`
     animation: fade-in 1.5s ease forwards;
     animation-delay: 3.5s;
 
-
+    position: absolute;
+    right: 30%;
+    left: 30%;
+    bottom: 0;
     border-top: 1px #c21807 solid;
-    line-height: 1.5;
-    letter-spacing: 1.5px;
-    width: 60vw;
-    min-width: 500px;
     margin: 0 auto;
     text-align: center;
     h6 {
+    margin-top: 0.8rem;
     font-size: 0.8rem;
     font-weight: 300;
 
