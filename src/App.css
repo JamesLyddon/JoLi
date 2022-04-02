@@ -30,33 +30,3 @@ body {
     filter: blur(0);
   }
 }
-
-@keyframes flash {
-  0% {
-    color: #333;
-    filter: blur(5px);
-  }
-  50% {
-    opacity: 1;
-    color: #c21807;
-    filter: blur(0);
-  }
-  100% {
-    opactiy: 0;
-    color: #333;
-    filter: blur(5px);
-  }
-}
-
-@keyframes fade-in-image {
-  from {
-    opacity: 0;
-    filter: blur(5px) brightness(100%);
-    box-shadow: none;
-  }
-  to {
-    opacity: 1;
-    box-shadow: 20px 20px 1px 1px rgba(255, 68, 51, 0.9);
-    filter: blur(0) brightness(70%);
-  }
-}

@@ -2,16 +2,15 @@ import styled from "styled-components";
 
 export const StyledSlogan = styled.div`
   position: fixed;
-  top: 35%;
+  top: 25%;
   right: 25%;
   width: 50%;
   padding: 0;
   margin: 0;
   z-index: -2;
-  ${"" /* transform: translate(-50%, -50%); */}
   text-align: center;
   h1 {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 4rem;
     color: #c21807;
   }
@@ -19,15 +18,32 @@ export const StyledSlogan = styled.div`
   .imagination,
   .creativity {
     opacity: 0;
-    animation: flash 3s ease forwards;
+    animation: slogan-flash 3s ease forwards;
   }
   .passion {
-    animation-delay: 2s;
+    animation-delay: 1.5s;
   }
   .imagination {
-    animation-delay: 2.4s;
+    animation-delay: 1.7s;
   }
   .creativity {
-    animation-delay: 2.8s;
+    animation-delay: 1.9s;
+  }
+
+  @keyframes slogan-flash {
+    0% {
+      color: #333;
+      filter: blur(5px);
+    }
+    50% {
+      opacity: 1;
+      color: #c21807;
+      filter: blur(0);
+    }
+    100% {
+      opactiy: 0;
+      color: #333;
+      filter: blur(5px);
+    }
   }
 `;
