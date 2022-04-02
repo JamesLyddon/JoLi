@@ -1,10 +1,6 @@
 import React from "react";
-import Logo from "../components/Logo";
-import Nav from "../components/Nav";
 import Headline from "../components/Headline";
 import Main from "../components/Main";
-import Footer from "../components/Footer";
-import { Container } from "../components/styles/Container.styled";
 
 const headlineText = `Professional, Actor and Model Headshots`;
 
@@ -13,13 +9,8 @@ const mainText = `What do you get? A professional one hour shoot in our photo st
 export default function Headshots() {
   return (
     <>
-      <Container>
-        <Logo />
-        <Nav />
-        <Headline headlineText={headlineText} />
-        <Main mainText={mainText} />
-        <Footer />
-      </Container>
+      <Headline headlineText={headlineText} />
+      <Main mainText={mainText} />
     </>
   );
 }

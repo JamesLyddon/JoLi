@@ -1,12 +1,8 @@
 import React from "react";
-import Logo from "../components/Logo";
-import Nav from "../components/Nav";
 import Slogan from "../components/Slogan";
 import Carousel from "../components/Carousel";
 import Headline from "../components/Headline";
 import Main from "../components/Main";
-import Footer from "../components/Footer";
-import { Container } from "../components/styles/Container.styled";
 
 const headlineText = `Video, Audio and Motion Graphic suite and facilities`;
 
@@ -22,15 +18,10 @@ const mainText = `We can work to virtually any budget for above and below the li
 export default function Home() {
   return (
     <>
-      <Container>
-        <Logo />
-        <Nav />
-        <Headline headlineText={headlineText} />
-        <Slogan />
-        <Carousel />
-        <Main mainText={mainText} />
-        <Footer />
-      </Container>
+      <Headline headlineText={headlineText} />
+      <Slogan />
+      <Carousel />
+      <Main mainText={mainText} />
     </>
   );
 }
