@@ -10,6 +10,7 @@ export const StyledHeadline = styled.div`
   min-width: 500px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 1rem;
   h2 {
     font-size: 1.7rem;
     font-weight: 300;

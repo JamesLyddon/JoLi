@@ -10,7 +10,8 @@ export const StyledStudio = styled.div`
   grid-template-columns: 1fr 1fr;
 
   img {
-    opacity: 0.6;
-    box-shadow: 5px 5px 0px #c21807;
+    animation: fade-in 1.5s ease forwards;
+    margin-top: 1rem;
+    box-shadow: 3px 3px 0px #c21807;
   }
 `;

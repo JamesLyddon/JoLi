@@ -5,10 +5,12 @@ export const StyledMain = styled.div`
   animation: fade-in 1.5s ease forwards;
   animation-delay: ${(props) => (props.isHome ? 3.7 : 0)}s;
 
-  line-height: 1.8;
-  letter-spacing: 0.5px;
-  max-width: 60vw;
-  min-width: 500px;
-  margin: 0 auto;
-  text-align: center;
+  div {
+    max-width: 800px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
 `;
