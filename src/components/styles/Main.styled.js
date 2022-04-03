@@ -7,7 +7,7 @@ export const StyledMain = styled.div`
 
   line-height: 1.8;
   letter-spacing: 0.5px;
-  width: 60vw;
+  max-width: 60vw;
   min-width: 500px;
   margin: 0 auto;
   text-align: center;

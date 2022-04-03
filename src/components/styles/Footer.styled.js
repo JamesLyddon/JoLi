@@ -6,8 +6,8 @@ export const StyledFooter = styled.div`
     animation-delay: 3.7s;
 
     position: absolute;
-    right: 30%;
-    left: 30%;
+    right: 20%;
+    left: 20%;
     bottom: 0;
     border-top: 1px #c21807 solid;
     margin: 0 auto;

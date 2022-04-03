@@ -1,11 +1,11 @@
 import React from "react";
-
+import { StyledStudio } from "../components/styles/Studio.styled";
 import Headline from "../components/Headline";
 import Main from "../components/Main";
 
 const headlineText = `Studio Hire`;
 
-const mainText = `JoLi Studios has a 4x6 meter 'L' shape cyclorama with brackets at the top for mounting paper colorama or vinyl backdrops up to 3 meters in width.  Our in-house kit list is always growing so contact us for a complete list however we typically have both studio flash head kits and continuous LED lights for both photography and video, 2 wide angle reflectors, two silver/white umbrellas, a large octobox, 2 large square softboxes, 2 medium size softboxes, 2 stripboxes with grids, snoot, beauty dish, a wall mounted boom arm, a free standing boom arm and a wireless trigger system.  We also have various coloured paper backdrops and lighting gels. If you have specific requirements for video or photography please let us know in advance as we can easily hire equipment in with given notice.
+const mainText = `JoLi Studios has a 4x6 meter 'L' shape cyclorama with brackets at the top for mounting paper colorama or vinyl backdrops up to 3 meters in width. Our in-house kit list is always growing so contact us for a complete list however we typically have both studio flash head kits and continuous LED lights for both photography and video, 2 wide angle reflectors, two silver/white umbrellas, a large octobox, 2 large square softboxes, 2 medium size softboxes, 2 stripboxes with grids, snoot, beauty dish, a wall mounted boom arm, a free standing boom arm and a wireless trigger system.  We also have various coloured paper backdrops and lighting gels. If you have specific requirements for video or photography please let us know in advance as we can easily hire equipment in with given notice.
 
 ​
 
@@ -19,7 +19,10 @@ export default function Studio() {
   return (
     <>
       <Headline headlineText={headlineText} />
-      <Main mainText={mainText} />
+      <StyledStudio>
+        <Main mainText={mainText} />
+        <img src="images/studiobw.webp" alt="studio blueprint" />
+      </StyledStudio>
     </>
   );
 }
