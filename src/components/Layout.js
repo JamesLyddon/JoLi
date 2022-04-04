@@ -10,13 +10,6 @@ export default function Layout() {
       <Logo />
       <Nav />
       <Outlet />
-      <div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
       <Footer />
     </>
   );

@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const StyledLogo = styled.div`
-  display: grid;
-  place-items: center;
+  margin-top: 1rem;
 
   img {
     box-shadow: inset 0 0 0 0 #c21807;

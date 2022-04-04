@@ -2,15 +2,10 @@ import styled from "styled-components";
 
 export const StyledFooter = styled.div`
     opacity: 0;
+    min-width: 90vw;
     animation: fade-in 1.5s ease forwards;
-    animation-delay: 3.7s;
-
-    position: absolute;
-    right: 20%;
-    left: 20%;
-    bottom: 0;
+    animation-delay: 1s;
     border-top: 1px #c21807 solid;
-    margin: 0 auto;
     text-align: center;
     h6 {
     margin-top: 0.8rem;
