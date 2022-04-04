@@ -5,6 +5,8 @@ export const StyledMain = styled.div`
   animation: fade-in 1.5s ease forwards;
   animation-delay: ${(props) => (props.isHome ? 3.7 : 0)}s;
 
+  width: 80vw;
+
   div {
     max-width: 800px;
     font-size: 0.9rem;

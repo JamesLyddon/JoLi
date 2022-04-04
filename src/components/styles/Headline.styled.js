@@ -7,10 +7,8 @@ export const StyledHeadline = styled.div`
   line-height: 1.5;
   letter-spacing: 1.5px;
   max-width: 60vw;
-  min-width: 500px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 1rem;
   h2 {
     font-size: 1.7rem;
     font-weight: 300;

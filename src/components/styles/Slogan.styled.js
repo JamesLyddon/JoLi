@@ -2,16 +2,16 @@ import styled from "styled-components";
 
 export const StyledSlogan = styled.div`
   position: fixed;
-  top: 25%;
-  right: 25%;
-  width: 50%;
+  top: 30vh;
+  left: 10vw;
+  width: 80vw;
   padding: 0;
   margin: 0;
   z-index: -2;
   text-align: center;
   h1 {
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 2rem;
     color: #c21807;
   }
   .passion,

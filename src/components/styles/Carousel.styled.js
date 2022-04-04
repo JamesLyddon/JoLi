@@ -4,8 +4,7 @@ export const StyledCarousel = styled.div`
   opacity: 0;
   animation: fade-in 1.5s ease forwards;
   animation-delay: 3.7s;
-  font-size: 1.5rem;
-  padding: 2rem 6rem;
+  font-size: 1rem;
   overflow-x: hidden;
   text-align: center;
   font-style: italic;
@@ -13,8 +12,8 @@ export const StyledCarousel = styled.div`
   margin: 0 auto;
 
   .slide img {
-    height: 20vh;
-    margin: 2rem auto;
+    height: 10vh;
+    margin: 1rem auto;
   }
 
   .slide {
@@ -56,5 +55,13 @@ export const StyledCarousel = styled.div`
   .prev {
     left: 0%;
     top: 50%;
+  }
+
+  @media screen and (min-width: 600px) {
+    .slide img {
+      height: 30vh;
+      margin: 1rem auto;
+    }
+    width: 70vw;
   }
 `;
