@@ -26,11 +26,11 @@ const mainText = (
 
 export default function Home() {
   return (
-    <>
+    <div id="home">
       <Headline headlineText={headlineText} />
       <Slogan />
       <Carousel />
       <Main mainText={mainText} />
-    </>
+    </div>
   );
 }

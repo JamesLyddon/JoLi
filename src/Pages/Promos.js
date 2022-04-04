@@ -8,9 +8,9 @@ const mainText = `Motion graphics TV commercials, live action TV commercials, on
 
 export default function Promos() {
   return (
-    <>
+    <div id="promo">
       <Headline headlineText={headlineText} />
       <Main mainText={mainText} />
-    </>
+    </div>
   );
 }

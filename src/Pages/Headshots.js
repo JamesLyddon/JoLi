@@ -8,9 +8,9 @@ const mainText = `What do you get? A professional one hour shoot in our photo st
 
 export default function Headshots() {
   return (
-    <>
+    <div id="headshots">
       <Headline headlineText={headlineText} />
       <Main mainText={mainText} />
-    </>
+    </div>
   );
 }

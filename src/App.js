@@ -16,6 +16,12 @@ function App() {
     <div className="wrapper">
       <Logo />
       <Nav />
+      <Home />
+      <Promos />
+      <Headshots />
+      <Studio />
+      <Contact />
+      <Client />
       <Footer />
     </div>
   );

@@ -51,9 +51,9 @@ simply follow the arrows on the road.`;
 
 export default function Contact() {
   return (
-    <>
+    <div id="contact">
       <Headline headlineText={headlineText} />
       <Main mainText={mainText} />
-    </>
+    </div>
   );
 }

@@ -13,19 +13,19 @@ export default function Nav() {
     <StyledNav>
       <nav>
         <div>
-          <a href="/promos">Promos</a>
+          <a href="#home">Promos</a>
         </div>
         <div className="headshots">
-          <a href="/headshots">Headshots</a>
+          <a href="#headshots">Headshots</a>
         </div>
         <div className="studio">
-          <a href="/studio">Studio</a>
+          <a href="#studio">Studio</a>
         </div>
         <div className="contact">
-          <a href="/contact">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
         <div className="client">
-          <a href="/client">Client</a>
+          <a href="#client">Client</a>
         </div>
       </nav>
       <div className="hamburger">
@@ -33,19 +33,19 @@ export default function Nav() {
       </div>
       <div className="drop-down">
         <div>
-          <a href="/promos">Promos</a>
+          <a href="#home">Promos</a>
         </div>
         <div>
-          <a href="/headshots">Headshots</a>
+          <a href="#headshots">Headshots</a>
         </div>
         <div>
-          <a href="/studio">Studio</a>
+          <a href="#studio">Studio</a>
         </div>
         <div>
-          <a href="/contact">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
         <div>
-          <a href="/client">Client</a>
+          <a href="#client">Client</a>
         </div>
       </div>
     </StyledNav>

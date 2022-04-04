@@ -42,13 +42,13 @@ const mainText = (
 
 export default function Studio() {
   return (
-    <>
+    <div id="studio">
       <Headline headlineText={headlineText} />
       <StyledStudio>
         <Main mainText={mainText} />
 
         <img src="images/studiobw.webp" alt="studio blueprint" />
       </StyledStudio>
-    </>
+    </div>
   );
 }
