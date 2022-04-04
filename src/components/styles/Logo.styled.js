@@ -20,6 +20,5 @@ export const StyledLogo = styled.div`
     width: 100px;
     opacity: 0;
     animation: fade-in 2s ease forwards;
-    animation-delay: 0.5s;
   }
 `;

@@ -4,7 +4,6 @@ export const StyledFooter = styled.div`
     opacity: 0;
     min-width: 90vw;
     animation: fade-in 1.5s ease forwards;
-    animation-delay: 1s;
     border-top: 1px #c21807 solid;
     text-align: center;
     h6 {
