@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledNav = styled.div`
-  a {
+  nav a {
     text-decoration: none;
     color: rgb(212, 212, 212);
     padding: 0.5rem;
@@ -21,7 +21,9 @@ export const StyledNav = styled.div`
     color: rgb(212, 212, 212);
   }
 
-  a:hover {
+  a:hover,
+  a:focus {
+    transition: 0.3s ease-in-out;
     color: #161616;
     font-weight: 600;
     box-shadow: inset 0 -150px 0 0 #c21807;
@@ -32,6 +34,7 @@ export const StyledNav = styled.div`
   }
 
   .hamburger {
+    transition: width 2s, height 4s;
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -43,6 +46,40 @@ export const StyledNav = styled.div`
     border-radius: 5px;
     border: 1px solid #fff;
     color: #c21807;
+  }
+
+  .hamburger:hover,
+  .hamburger:focus {
+    transition: 0.5s ease-in-out;
+    border: 1px solid #c21807;
+  }
+
+  .drop-down {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.5rem;
+    text-align: right;
+    line-height: 2;
+    background: #333;
+    border-radius: 5px;
+    padding: 0.2rem;
+
+    opacity: 0.8;
+    animation: fade-in 0.5s ease forwards;
+  }
+
+  .drop-down a {
+    padding: 0 0.2rem;
+  }
+
+  .drop-down a:hover,
+  .drop-down a:focus {
+    transition: 0.3s ease-in-out;
+    color: #161616;
+
+    border-radius: 5px;
   }
 
   @media screen and (min-width: 600px) {
@@ -58,7 +95,8 @@ export const StyledNav = styled.div`
       opacity: 0;
       animation: fade-in 1.5s ease forwards;
     }
-    .hamburger {
+    .hamburger,
+    .drop-down {
       display: none;
     }
   }
