@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSlogan = styled.div`
-  position: fixed;
+  position: absolute;
   top: 30vh;
   left: 10vw;
   width: 80vw;

@@ -17,7 +17,6 @@ function App() {
       <Logo />
       <Nav />
       <Home />
-      <Promos />
       <Headshots />
       <Studio />
       <Contact />
