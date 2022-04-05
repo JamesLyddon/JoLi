@@ -35,7 +35,8 @@ export const StyledNav = styled.div`
 
   .hamburger {
     transition: width 2s, height 4s;
-    position: absolute;
+    background-color: #111;
+    position: fixed;
     top: 1rem;
     right: 1rem;
     display: flex;
@@ -56,7 +57,7 @@ export const StyledNav = styled.div`
 
   .drop-down {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 1rem;
     right: 1rem;
     font-size: 0.5rem;
@@ -65,7 +66,6 @@ export const StyledNav = styled.div`
     background: #333;
     border-radius: 5px;
     padding: 0.2rem;
-
     opacity: 0.8;
     animation: fade-in 0.5s ease forwards;
   }
@@ -98,6 +98,7 @@ export const StyledNav = styled.div`
     .hamburger,
     .drop-down {
       display: none;
+      z-index: 30;
     }
   }
 `;

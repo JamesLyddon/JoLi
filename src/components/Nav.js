@@ -8,6 +8,13 @@ const showMenu = function () {
   dropDown.style.display = "block";
 };
 
+const hideMenu = function () {
+  const dropDown = document.querySelector(".drop-down");
+  const hamburgerButton = document.querySelector(".hamburger");
+  hamburgerButton.style.display = "flex";
+  dropDown.style.display = "none";
+};
+
 export default function Nav() {
   return (
     <StyledNav>
@@ -33,19 +40,29 @@ export default function Nav() {
       </div>
       <div className="drop-down">
         <div>
-          <a href="#home">Promos</a>
+          <a href="#home" onClick={hideMenu}>
+            Promos
+          </a>
         </div>
         <div>
-          <a href="#headshots">Headshots</a>
+          <a href="#headshots" onClick={hideMenu}>
+            Headshots
+          </a>
         </div>
         <div>
-          <a href="#studio">Studio</a>
+          <a href="#studio" onClick={hideMenu}>
+            Studio
+          </a>
         </div>
         <div>
-          <a href="#contact">Contact</a>
+          <a href="#contact" onClick={hideMenu}>
+            Contact
+          </a>
         </div>
         <div>
-          <a href="#client">Client</a>
+          <a href="#client" onClick={hideMenu}>
+            Client
+          </a>
         </div>
       </div>
     </StyledNav>

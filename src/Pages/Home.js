@@ -4,7 +4,7 @@ import Carousel from "../components/Carousel";
 import Headline from "../components/Headline";
 import Main from "../components/Main";
 
-const headlineText = `Video, Audio and Motion Graphic suite and facilities`;
+const headlineText = `Video, Audio, and Motion Graphic suite and facilities`;
 
 const mainText = (
   <div>
