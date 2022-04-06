@@ -9,8 +9,10 @@ export const StyledHeadline = styled.div`
   max-width: 60vw;
   margin: 0 auto;
   text-align: center;
+  border-bottom: 1px solid rgb(255 68 51 / 0.5);
   h2 {
     font-size: 1.7rem;
     font-weight: 300;
+    margin-bottom: 0.5rem;
   }
 `;
