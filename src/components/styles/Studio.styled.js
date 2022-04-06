@@ -9,7 +9,8 @@ export const StyledStudio = styled.div`
   img {
     position: relative;
     z-index: -3;
-    height: 80vh;
+    width: 80vw;
+    max-width: 400px;
     animation: fade-in 1.5s ease forwards;
   }
 `;
