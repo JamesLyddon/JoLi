@@ -40,3 +40,16 @@ body {
     filter: blur(0);
   }
 }
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  background: #333;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(194, 24, 7, 0.8);
+  border-radius: 50px;
+  opacity: 0.5;
+  height: 50px;
+}
