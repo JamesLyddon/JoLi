@@ -4,7 +4,6 @@ export const StyledStudio = styled.div`
   margin: 0 auto;
   width: 80vw;
   display: grid;
-  ${"" /* grid-template-columns: 1fr; */}
   place-items: center;
 
   img {
