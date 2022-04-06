@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledPhotoGrid = styled.div`
   display: grid;
+  place-items: center;
   gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 
@@ -10,14 +11,14 @@ export const StyledPhotoGrid = styled.div`
     display: block;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #000;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .card:hover {
     .card__content {
       opacity: 1;
     }
     img {
-      filter: blur(3px);
+      filter: blur(2px);
     }
   }
   .card {
@@ -33,7 +34,7 @@ export const StyledPhotoGrid = styled.div`
     align-self: center;
     z-index: 1;
     opacity: 0;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
 
   .card__title,
