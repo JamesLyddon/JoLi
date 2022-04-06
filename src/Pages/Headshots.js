@@ -7,8 +7,14 @@ const headlineText = `Professional, Actor and Model Headshots`;
 
 const mainText = (
   <>
-    <PhotoGrid />
     <div>
+      <p>
+        Photographer and studio based in Colchester Essex. We shoot model,
+        actor, musician, band, group, solo artist and commercial headshots, pin
+        up and vintage themed shoots amongst a whole other array for your
+        photography needs.
+      </p>
+      <PhotoGrid />
       <p>
         What do you get? A professional one hour shoot in our photo studio,
         after which you'll receive all images as digital files by email. Tell us

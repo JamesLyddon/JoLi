@@ -44,14 +44,14 @@ export const StyledPhotoGrid = styled.div`
     text-shadow: 1px 1px 1px #111;
   }
   .card__title {
-    color: rgb(255 68 51);
-    font-size: 5vw;
+    color: rgb(255 68 51 / 0.9);
+    font-size: 3vw;
     font-weight: 500;
     line-height: 1.1;
   }
   .card__description {
     color: #fff;
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
   .stacked {
