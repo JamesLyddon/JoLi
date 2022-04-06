@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const StyledNav = styled.div`
+  z-index: 30;
+
   nav a {
     text-decoration: none;
     color: rgb(212, 212, 212);
@@ -98,7 +100,7 @@ export const StyledNav = styled.div`
     .hamburger,
     .drop-down {
       display: none;
-      z-index: 30;
+      z-index: 10;
     }
   }
 `;
