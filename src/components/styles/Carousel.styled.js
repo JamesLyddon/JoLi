@@ -10,6 +10,7 @@ export const StyledCarousel = styled.div`
   font-style: italic;
   width: 80vw;
   margin: 0 auto;
+  padding-top: 2rem;
 
   .slide img {
     height: 10vh;
@@ -44,7 +45,7 @@ export const StyledCarousel = styled.div`
 
   .arrow svg:hover {
     transition: color 300ms;
-    color: #c21807;
+    color: var(--red-text);
   }
 
   .next {

@@ -26,7 +26,8 @@ const mainText1 = (
       <p className="quote-right">
         <ImQuotesRight className="quote" />
       </p>
-      <p className="refName">Steven Hall - DoP</p>{" "}
+      <p className="refName">Steven Hall</p>
+      <p className="refTitle">Director of Photography</p>{" "}
     </p>
   </div>
 );
@@ -46,7 +47,8 @@ const mainText2 = (
       <p className="quote-right">
         <ImQuotesRight className="quote" />
       </p>
-      <p className="refName">Vicki Smith - Marketing Manager</p>{" "}
+      <p className="refName">Vicki Smith</p>{" "}
+      <p className="refTitle">Marketing Manager</p>{" "}
     </p>
   </div>
 );

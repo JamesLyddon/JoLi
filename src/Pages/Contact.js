@@ -3,7 +3,7 @@ import Headline from "../components/Headline";
 import Main from "../components/Main";
 import { StyledContact } from "../components/styles/Contact.styled";
 
-const headlineText = `Questions? Get in touch!`;
+const headlineText = `Contact`;
 
 const mainText1 = (
   <div>

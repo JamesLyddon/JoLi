@@ -15,14 +15,24 @@ export const StyledTestimonial = styled.div`
     margin: 0 auto;
   }
 
-  .refName,
+  .refName {
+    color: #fff;
+  }
+
   .quote {
-    color: #c21807;
+    color: var(--red-text);
   }
 
   .refName {
     text-align: end;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+  .refTitle {
+    text-align: end;
+    color: var(--red-text);
+    font-size: 0.7rem;
+    margin-top: 0;
   }
 
   .quote {

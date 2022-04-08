@@ -4,13 +4,13 @@ export const StyledLogo = styled.div`
   margin-top: 1rem;
 
   img {
-    box-shadow: inset 0 0 0 0 #c21807;
+    box-shadow: inset 0 0 0 0 var(--red-text);
     transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   }
 
   img:hover {
-    color: #c21807;
-    box-shadow: inset 0 100px 0 0 #c21807;
+    color: var(--red-text);
+    box-shadow: inset 0 100px 0 0 var(--red-text);
   }
 
   .logo-img {
