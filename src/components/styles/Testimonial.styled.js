@@ -20,7 +20,7 @@ export const StyledTestimonial = styled.div`
   }
 
   .quote {
-    color: #c21807;
+    color: var(--red-text);
   }
 
   .refName {
@@ -30,7 +30,7 @@ export const StyledTestimonial = styled.div`
   }
   .refTitle {
     text-align: end;
-    color: #c21807;
+    color: var(--red-text);
     font-size: 0.7rem;
     margin-top: 0;
   }

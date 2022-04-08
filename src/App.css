@@ -2,6 +2,12 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+:root {
+  --red-text: rgb(194, 24, 7, 1);
+  --offwhite-text: rgb(212, 212, 212, 0.9);
+  --white-text: rgb(255, 255, 255, 0.9);
+}
+
 html {
   scroll-behavior: smooth;
 }

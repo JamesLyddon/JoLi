@@ -12,7 +12,7 @@ export const StyledSlogan = styled.div`
   h1 {
     font-weight: 400;
     font-size: 2rem;
-    color: #c21807;
+    color: var(--red-text);
   }
   .passion,
   .imagination,
@@ -37,7 +37,7 @@ export const StyledSlogan = styled.div`
     }
     50% {
       opacity: 1;
-      color: #c21807;
+      color: var(--red-text);
       filter: blur(0);
     }
     100% {

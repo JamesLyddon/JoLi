@@ -5,22 +5,22 @@ export const StyledNav = styled.div`
 
   nav a {
     text-decoration: none;
-    color: rgb(212, 212, 212);
+    color: var(--offwhite-text);
     padding: 0.5rem;
-    box-shadow: inset 0 0 0 0 #c21807;
+    box-shadow: inset 0 0 0 0 var(--red-text);
     transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     border-radius: 5px 5px 0 0;
-    border-bottom: 1px #c21807 solid;
+    border-bottom: 1px var(--red-text) solid;
   }
 
   a:link {
     text-decoration: none;
-    color: rgb(212, 212, 212);
+    color: var(--offwhite-text);
   }
 
   a:visited {
     text-decoration: none;
-    color: rgb(212, 212, 212);
+    color: var(--offwhite-text);
   }
 
   a:hover,
@@ -28,7 +28,7 @@ export const StyledNav = styled.div`
     transition: 0.3s ease-in-out;
     color: #161616;
     font-weight: 600;
-    box-shadow: inset 0 -150px 0 0 #c21807;
+    box-shadow: inset 0 -150px 0 0 var(--red-text);
   }
 
   nav {
@@ -48,13 +48,13 @@ export const StyledNav = styled.div`
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #fff;
-    color: #c21807;
+    color: var(--red-text);
   }
 
   .hamburger:hover,
   .hamburger:focus {
     transition: 0.5s ease-in-out;
-    border: 1px solid #c21807;
+    border: 1px solid var(--red-text);
   }
 
   .drop-down {

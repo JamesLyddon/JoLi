@@ -45,7 +45,7 @@ export const StyledCarousel = styled.div`
 
   .arrow svg:hover {
     transition: color 300ms;
-    color: #c21807;
+    color: var(--red-text);
   }
 
   .next {
