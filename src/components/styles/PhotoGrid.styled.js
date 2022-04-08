@@ -45,13 +45,13 @@ export const StyledPhotoGrid = styled.div`
   }
   .card__title {
     color: rgb(255 68 51 / 0.9);
-    font-size: 3vw;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 1.1;
   }
   .card__description {
     color: #fff;
-    font-size: 2vw;
+    font-size: 1.5rem;
   }
 
   .stacked {
