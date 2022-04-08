@@ -28,6 +28,9 @@ export default function Nav() {
         <div className="studio">
           <a href="#studio">Studio</a>
         </div>
+        <div className="Testimonials">
+          <a href="#testimonials">Testimonials</a>
+        </div>
         <div className="contact">
           <a href="#contact">Contact</a>
         </div>

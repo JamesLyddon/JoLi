@@ -86,10 +86,11 @@ export const StyledNav = styled.div`
 
   @media screen and (min-width: 600px) {
     nav {
+      padding: 1rem 0;
       width: 80vw;
       max-width: 800px;
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(6, 1fr);
       font-size: 1rem;
       place-items: center;
       text-align: center;

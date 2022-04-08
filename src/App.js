@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import Headshots from "./Pages/Headshots";
 import Studio from "./Pages/Studio";
+import Testimonials from "./Pages/Testimonials";
 import Contact from "./Pages/Contact";
 import Client from "./Pages/Client";
 import Logo from "./components/Logo";
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <Headshots />
       <Studio />
+      <Testimonials />
       <Contact />
       <Client />
       <Footer />

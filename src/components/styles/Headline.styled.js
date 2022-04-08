@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHeadline = styled.div`
+  padding-top: 1rem;
   opacity: 0;
   animation: fade-in 1.5s ease forwards;
   animation-delay: ${(props) => (props.isHome ? 3.7 : 0)}s;

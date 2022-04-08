@@ -3,7 +3,7 @@ import Headline from "../components/Headline";
 import Main from "../components/Main";
 import PhotoGrid from "../components/PhotoGrid";
 
-const headlineText = `Professional, Actor and Model Headshots`;
+const headlineText = `Professional Actor and Model Headshots`;
 
 const mainText = (
   <>
