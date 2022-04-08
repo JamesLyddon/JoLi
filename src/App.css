@@ -3,7 +3,7 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 :root {
-  --red-text: rgb(194, 24, 7, 1);
+  --red-text: rgb(192, 22, 7, 0.9);
   --offwhite-text: rgb(212, 212, 212, 0.9);
   --white-text: rgb(255, 255, 255, 0.9);
 }

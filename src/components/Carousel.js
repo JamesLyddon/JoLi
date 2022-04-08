@@ -3,12 +3,12 @@ import { v4 as uuidv4 } from "uuid";
 import { StyledCarousel } from "./styles/Carousel.styled";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Slider from "react-slick";
-import broadcast_tv from "../assets/broadcast_tv.svg";
-import video_on_demand from "../assets/video_on_demand.svg";
-import video_influencer from "../assets/video_influencer.svg";
-import videographer from "../assets/videographer.svg";
+import broadcastTv from "../assets/broadcastTv.svg";
+import videoOnDemand from "../assets/videoOnDemand.svg";
+import onlinePromo from "../assets/onlinePromo.svg";
+import cinema from "../assets/cinema.svg";
 
-const images = [broadcast_tv, videographer, video_influencer, video_on_demand];
+const images = [broadcastTv, cinema, onlinePromo, videoOnDemand];
 
 const blurbs = ["Broadcast TV", "Cinema", "Online Promo", "Video On Demand"];
 
