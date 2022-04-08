@@ -58,6 +58,11 @@ export default function Nav() {
           </a>
         </div>
         <div>
+          <a href="#testimonials" onClick={hideMenu}>
+            Testimonials
+          </a>
+        </div>
+        <div>
           <a href="#contact" onClick={hideMenu}>
             Contact
           </a>

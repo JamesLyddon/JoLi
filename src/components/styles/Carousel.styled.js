@@ -10,6 +10,7 @@ export const StyledCarousel = styled.div`
   font-style: italic;
   width: 80vw;
   margin: 0 auto;
+  padding-top: 2rem;
 
   .slide img {
     height: 10vh;
