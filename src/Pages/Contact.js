@@ -1,10 +1,11 @@
 import React from "react";
 import Headline from "../components/Headline";
 import Main from "../components/Main";
+import { StyledContact } from "../components/styles/Contact.styled";
 
 const headlineText = `Questions? Get in touch!`;
 
-const mainText = (
+const mainText1 = (
   <div>
     <p>
       JoLi Studios
@@ -22,6 +23,11 @@ const mainText = (
       <br />
       info@jolistudios.co.uk
     </p>
+  </div>
+);
+
+const mainText2 = (
+  <div>
     <p>
       Directions:
       <br />
@@ -42,7 +48,23 @@ export default function Contact() {
   return (
     <div id="contact">
       <Headline headlineText={headlineText} />
-      <Main mainText={mainText} />
+      <StyledContact>
+        <a
+          className="main1"
+          href="https://g.page/jolistudios?share"
+          target="_blank"
+        >
+          <Main mainText={mainText1} />
+        </a>
+        <a
+          className="main1"
+          href="https://g.page/jolistudios?share"
+          target="_blank"
+        >
+          <img src="images/entrance.webp" alt="entrance"></img>
+        </a>
+        <Main mainText={mainText2} />
+      </StyledContact>
     </div>
   );
 }
