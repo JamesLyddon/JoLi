@@ -8,7 +8,7 @@ export const StyledMain = styled.div`
   width: 80vw;
 
   div {
-    max-width: 800px;
+    max-width: 1000px;
     font-size: 0.9rem;
     line-height: 1.5;
     letter-spacing: 1px;
