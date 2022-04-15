@@ -47,7 +47,10 @@ export default function Studio() {
       <StyledStudio>
         <Main mainText={mainText} />
 
-        <img src="images/studiobw.webp" alt="studio blueprint" />
+        <img
+          src={require("../assets/images/studiobw.webp")}
+          alt="studio blueprint"
+        />
       </StyledStudio>
     </div>
   );

@@ -6,7 +6,7 @@ export default function Logo() {
       <a href="/">
         <img
           className="logo-img"
-          src="images/joli.jpg"
+          src={require("../assets/images/joli.jpg")}
           alt="JoLi Studios Logo"
         />
       </a>

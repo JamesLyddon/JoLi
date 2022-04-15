@@ -61,7 +61,10 @@ export default function Contact() {
           href="https://g.page/jolistudios?share"
           target="_blank"
         >
-          <img src="images/entrance.webp" alt="entrance"></img>
+          <img
+            src={require("../assets/images/entrance.webp")}
+            alt="entrance"
+          ></img>
         </a>
         <Main mainText={mainText2} />
       </StyledContact>

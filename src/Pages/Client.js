@@ -14,10 +14,10 @@ export default function Client() {
       <StyledClient>
         <Main mainText={mainText} />
         <a href="https://www.jolistudios.co.uk/itv-file-archive">
-          <img src="images/itv.webp" alt="ITV logo" />
+          <img src={require("../assets/images/itv.webp")} alt="ITV logo" />
         </a>
         <a href="https://www.jolistudios.co.uk/dualcom-file-archive">
-          <img src="images/csl.webp" alt="CSL logo" />
+          <img src={require("../assets/images/csl.webp")} alt="CSL logo" />
         </a>
       </StyledClient>
     </div>
