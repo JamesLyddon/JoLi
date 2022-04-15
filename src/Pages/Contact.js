@@ -53,6 +53,7 @@ export default function Contact() {
           className="main1"
           href="https://g.page/jolistudios?share"
           target="_blank"
+          rel="noreferrer"
         >
           <Main mainText={mainText1} />
         </a>
@@ -60,6 +61,7 @@ export default function Contact() {
           className="main1"
           href="https://g.page/jolistudios?share"
           target="_blank"
+          rel="noreferrer"
         >
           <img
             src={require("../assets/images/entrance.webp")}
