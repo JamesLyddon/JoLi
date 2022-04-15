@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/joli/static/css/main.6435f197.css",
+    "main.js": "/joli/static/js/main.07c2145b.js",
+    "static/media/entrance.webp": "/joli/static/media/entrance.ea0ba5e84e090632b321.webp",
+    "static/media/csl.webp": "/joli/static/media/csl.30bc532012d6d10cac1b.webp",
+    "static/media/cinema.svg": "/joli/static/media/cinema.c9f3d3a17b50a83590bad13799df8d5d.svg",
+    "static/media/headshot5.webp": "/joli/static/media/headshot5.6bfd71d2a4d055c6dcbd.webp",
+    "static/media/itv.webp": "/joli/static/media/itv.1e58827e2e79270a43d2.webp",
+    "static/media/studiobw.webp": "/joli/static/media/studiobw.e1ddfb09bb81276267ee.webp",
+    "static/media/headshot13.webp": "/joli/static/media/headshot13.e51a9130118fabad6bf2.webp",
+    "static/media/headshot10.webp": "/joli/static/media/headshot10.133bc66c3b876e1f4ae1.webp",
+    "static/media/headshot6.webp": "/joli/static/media/headshot6.dfeae932205747a52e40.webp",
+    "static/media/headshot3.webp": "/joli/static/media/headshot3.82d9349dc1f99b73ff7c.webp",
+    "static/media/headshot8.webp": "/joli/static/media/headshot8.e9495d998d806e9b0749.webp",
+    "static/media/headshot2.webp": "/joli/static/media/headshot2.0dd3225eeb6e8705bbf9.webp",
+    "static/media/headshot7.webp": "/joli/static/media/headshot7.dc0b5bfadf0622626ce3.webp",
+    "static/media/headshot15.webp": "/joli/static/media/headshot15.7866c34aadd969d0fdec.webp",
+    "static/media/headshot11.webp": "/joli/static/media/headshot11.2aa1c8f02ac371e23093.webp",
+    "static/media/broadcastTv.svg": "/joli/static/media/broadcastTv.dc1b995b88701da5177eff51d62a3356.svg",
+    "static/media/headshot12.webp": "/joli/static/media/headshot12.0fd9ced87f0e5d040f09.webp",
+    "static/media/headshot14.webp": "/joli/static/media/headshot14.586f3d6a9fa02f0fab57.webp",
+    "static/media/headshot17.webp": "/joli/static/media/headshot17.04f4d886816049d0fce9.webp",
+    "static/media/headshot18.webp": "/joli/static/media/headshot18.75ffbae1e96fc43800cf.webp",
+    "static/media/headshot4.webp": "/joli/static/media/headshot4.cf31dda64653f2533bc1.webp",
+    "static/media/headshot16.webp": "/joli/static/media/headshot16.9374b61e3e966afd0492.webp",
+    "static/media/videoOnDemand.svg": "/joli/static/media/videoOnDemand.a8f56451f52f8870c8bace631bf05a65.svg",
+    "static/media/onlinePromo.svg": "/joli/static/media/onlinePromo.4f2b1fb47fa8137bd990462807148bcd.svg",
+    "static/media/headshot1.webp": "/joli/static/media/headshot1.56d52b7d2dc5a2a0541d.webp",
+    "static/media/headshot9.webp": "/joli/static/media/headshot9.2a29b974826885fd8286.webp",
+    "static/media/slick.svg": "/joli/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/joli/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/joli/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/joli/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/joli/index.html",
+    "main.6435f197.css.map": "/joli/static/css/main.6435f197.css.map",
+    "main.07c2145b.js.map": "/joli/static/js/main.07c2145b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6435f197.css",
+    "static/js/main.07c2145b.js"
+  ]
+}
